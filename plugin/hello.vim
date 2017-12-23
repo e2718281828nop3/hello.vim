@@ -11,7 +11,7 @@ set cpo&vim
 nnoremap z :call hello#world()<CR>
 
 augroup hello
-  autocmd InsertEnter * call hello#world()
+  autocmd InsertEnter * call hello#stl()
 augroup END
 
 let &cpo = s:save_cpo

@@ -12,5 +12,9 @@ function! hello#world()
   echo "Hello World!"
 endfunction
 
+function! hello#stl()
+  set stl+=HELLOOOOOO
+endfunction
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
